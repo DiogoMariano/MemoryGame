@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayInfoFragment">
+
+    <TextView
+        android:id="@+id/titlePlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:text="@string/titlePlay" />
+
+    <TextView
+        android:id="@+id/triesPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titlePlay"
+        android:layout_alignStart="@+id/titlePlay"
+        android:layout_alignEnd="@+id/titlePlay"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/Tries" />
+
+    <TextView
+        android:id="@+id/timePlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/triesPlay"
+        android:layout_alignStart="@+id/triesPlay"
+        android:layout_alignEnd="@+id/triesPlay"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/timePlay" />
+
+    <TextView
+        android:id="@+id/typePlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timePlay"
+        android:layout_alignStart="@+id/timePlay"
+        android:layout_alignEnd="@+id/timePlay"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/typePlay" />
+
+</RelativeLayout>
